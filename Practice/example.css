@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Main Style*/
+body , html{
+    font-family: sans-serif;
+    line-height: 1.8rem;
+}
+ul , ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+/*Utility Classes*/
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-white{
+    color: white;
+}
+.bg-white{
+    background-color: white;
+}
+.text-dark{
+    color: #2f2f2f;
+}
+.text-center{
+    text-align: center;
+}
+/*Navbar Style*/
+.navbar{
+    padding: 16px 0;
+    background: url(images/heading.jpg) no-repeat center center/cover;
+    height: 700px;
+    opacity: 0.9;
+}
+.navbar .nav-items{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+}
+.navbar .nav-items .brand a{
+    font-size: 1.5rem;
+}
+.navbar .nav-items .links ul li{
+    display: inline-block;
+    padding: 0 8px;
+}
+.navbar .nav-items a:hover{
+    color: white;
+}
+.navbar .heading h2{
+    padding-top: 145px;
+    text-transform: uppercase;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    font-weight: bold;
+}
+.navbar .heading hr ,
+.service hr ,
+.contact hr{
+    width: 6%;
+    margin: 10px auto;
+    border: 3px solid tomato;
+}
+.navbar .heading .mashead-heading{
+    padding: 25px 0;
+    opacity: 0.8;
+    font-size: 1.3rem;
+}
+.navbar .heading button{
+    color: white;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color:tomato;
+    opacity: 0.7;
+}
+.navbar .heading button:hover{
+    opacity: 1;
+}
+/*About Style*/
+.about{
+    background-color: tomato;
+    padding: 90px;
+}
+.about h2{
+    font-size: 2rem;
+    padding: 20px;
+}
+.about hr{
+    width: 6%;
+    margin: 10px auto;
+    border: 3px solid white;
+}
+.about p ,
+.contact p{
+    opacity: 0.7;
+}
+.about button ,
+.portfolio .showcase button{
+    color: black;
+    padding: 20px;
+    border: none;
+    font-weight: bold;
+    margin-top: 20px;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: white;
+}
+.about button:hover ,
+.portfolio .showcase button:hover{
+    background-color: lightgray;
+}
+/*Service Style*/
+.service ,
+.contact{
+    margin-top: 85px;
+}
+.service h2 ,
+.contact h2{
+    font-size: 2rem;
+    padding: 20px;
+}
+.service .row{
+    display: flex;
+    padding-top: 40px;
+}
+.service .row .col .icon{
+    color: tomato;
+    padding: 20px;
+}
+.service .row .col p{
+    opacity: 0.7;
+}
+/*Portfolio Style*/
+.portfolio{
+    margin-top: 120px;
+}
+.portfolio .images{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    line-height: 0;
+    font-size: 0;
+    width: 100%;
+}
+.portfolio .images img{
+    width: 449px;
+}
+.portfolio .images img:hover{
+    opacity: 0.5;
+}
+.portfolio .showcase{
+    margin-top: -10px;
+    background-color: darkslategray;
+    height: 300px;
+    padding: 120px;
+    font-size: 1.5rem;
+}
+/*Contact Style*/
+.contact .contact-items{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+}
+.contact .contact-items p{
+    opacity: 1;
+    padding: 10px;
+}
+.contact .contact-items p a{
+    color: tomato;
+}
+.contact .contact-items p a:hover{
+    text-decoration: underline;
+}
+.contact .footer{
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
