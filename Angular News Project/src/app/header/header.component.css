@@ -1,0 +1,22 @@
+header .icons .icon{
+    padding: 0 5px;
+}
+header .icons .icon i,
+header .brand h1{
+    color: #2c3e50;
+}
+header .icons .icon i:hover{
+    color: grey;
+}
+.navbar-expand-md{
+    background-color: #2c3e50 !important;
+}
+.navbar-expand-md .navbar-brand{
+    color: grey;
+}
+.navbar-expand-md a{
+    color: white;
+}
+.navbar-expand-md a:hover{
+    color: grey;
+}

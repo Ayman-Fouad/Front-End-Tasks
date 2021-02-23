@@ -1,0 +1,62 @@
+<section class="contact my-3">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <hr>
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+                <form #contactForm="ngForm" (ngSubmit)="onSendMessage()">
+                    <div class="form-group">
+                        <label for="username">Username</label>
+                        <input type="text" class="form-control" name="username" 
+                        id="username" #username="ngModel"
+                        [(ngModel)]="usrObj.username" required minlength="4">
+                    </div>
+                    <div *ngIf="username.invalid && (username.touched || username.dirty)"
+                        class="alert alert-danger">
+                        <div *ngIf="username.errors?.required">
+                            Username Is Required
+                        </div>
+                        <div *ngIf="username.errors?.minlength">
+                            Username Must Contain 4 Chars.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" name="password" 
+                            id="password" #password="ngModel"
+                            [(ngModel)]="usrObj.password" required minlength="8">
+                    </div>
+                    <div *ngIf="password.invalid && (password.touched || password.dirty)"
+                        class="alert alert-danger">
+                        <div *ngIf="password.errors?.required">
+                            Password Is Required
+                        </div>
+                        <div *ngIf="password.errors?.minlength">
+                            Password Must Contain 8 Chars.
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" name="email" 
+                        id="email" #email="ngModel"
+                        [(ngModel)]="usrObj.email" required>
+                    </div>
+                    <div *ngIf="email.invalid && (email.touched || email.dirty)"
+                        class="alert alert-danger">
+                        <div *ngIf="email.errors?.required">
+                            Email Is Required
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" cols="30" 
+                            rows="10" class="form-control"
+                            [(ngModel)]="usrObj.message">  
+                        </textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
