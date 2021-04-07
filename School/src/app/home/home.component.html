@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="row mt-3">
+        <div class="col-md-4 col-xs-12 mb-3" *ngFor="let data of students; let j=index">
+            <div class="card" style="width: 15rem;">
+                <img [src]="data.avatar" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">{{data.first_name}}</h5>
+                    <h5 class="card-title">{{data.last_name}}</h5>
+                    <a [routerLink]="['/student/'+ data.id]" class="btn btn-primary" (submit)="onSubmit(data)">More Details -></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
