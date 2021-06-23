@@ -1,0 +1,19 @@
+/**
+ * Registration System
+ * Required Php Project  
+ * Pages [User Area]
+ * Login Page
+ * Signup Page => User 
+ * Home Page
+ * User Action 
+ * login 
+ * logout
+ * signup
+ * Admin Area 
+ * admin Page 
+ * Actions 
+ * Add News 
+ * Edit News
+ * Delete News
+ * Deadline => wednesday at 8 pm => ex => saturady 1 pm [max]
+ */
