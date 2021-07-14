@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CVhatt</title>
+    <!-- Bootstrap link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- Add Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" referrerpolicy="no-referrer" />
+    <!--Css link-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!--Navbar Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img src="assets/img/logo1.png" width="150 px" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Jobs</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a href="#" class="btn head-btn1">Login</a>
+            <a href="#" class="btn head-btn2">Register</a>
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!--Search Section-->
+    <div class="header">
+      <div class="container">
+        <div class="header-content">
+          <h1>The #1 job site to find flexible job opportunities</h1>
+        </div>
+        <!-- Search Box -->
+        <div class="row">
+            <div class="col">
+              <input type="text" class="form-control" placeholder="Job Tittle or keyword">
+            </div>
+            <div class="col">
+                <select class="form-select">
+                    <option value="1">Location One</option>
+                    <option value="2">Location Two</option>
+                    <option value="3">Location Three</option>
+                  </select>
+            </div>
+            <div class="col search-form">
+                <button class="text-white">Find Job</button>
+                <!--when adding js this button will route to jobs page-->
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Category Section-->
+    <section class="category text-center">
+        <div class="container">
+            <h2> Popular categories </h2>
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-calculator fa-3x"></i>
+                    </div>
+                    <h5>Accounting & Finance</h5>
+                    <p>2590 open positions</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="far fa-handshake fa-3x"></i>
+                    </div>
+                    <h5>Sales & Marketing</h5>
+                    <p>1214 open positions</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-globe fa-3x"></i>
+                    </div>
+                    <h5>Information Technology </h5>
+                    <p>3213 open positions</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-mug-hot fa-3x"></i>
+                    </div>
+                    <h5>Food Services </h5>
+                    <p>3213 open positions</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="far fa-object-group fa-3x"></i>
+                    </div>
+                    <h5>Design & Art </h5>
+                    <p>3213 open positions</p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!--Resume Section-->
+    <div class="resume text-center">
+        <dev class="container">
+            <p>Featured Tours Packages</p>
+            <h1>Make a Difference With Your <br> Online Resume!</h1>
+            <button>Upload Your CV</button>
+        </dev>
+    </div>
+
+    <!--Howto Section-->
+    <div class="showcase text-center text-white">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="row">
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-search-location fa-3x"></i>
+                    </div>
+                    <h5>1. Search a job</h5>
+                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-praying-hands fa-3x"></i>
+                    </div>
+                    <h5>2. Aplly for job</h5>
+                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                </div>
+                <div class="col">
+                    <div class="icon">
+                        <i class="fas fa-user-md fa-3x"></i>
+                    </div>
+                    <h5>3. Get your job </h5>
+                    <p>Sorem spsum dolor sit amsectetur adipisclit, seddo eiusmod tempor incididunt ut laborea.</p>
+                </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer class="bg-dark text-white text-center">
+      <p>copyright &copy; 2021 All right reserved</p> 
+      <div class="row">
+        <div class="col">
+          <h4>Around the web</h4>
+            <a href="www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>  
+      </div>
+    </footer>
+
+    <!-- JS links-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

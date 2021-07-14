@@ -1,0 +1,27 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*Navbar Style*/
+
+.d-flex a:hover{
+    background-color: #3657a8;
+    color: white;
+}
+
+.contact-1 p ,a{
+    color: gray;
+}
+.contact-1 .icon i,h5{
+    color: #1087eb;
+}
+.contact-2{
+    background-color: lightgrey;
+}

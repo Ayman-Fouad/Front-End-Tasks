@@ -1,0 +1,26 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+/*Navbar Style*/
+
+.d-flex a:hover{
+    background-color: #3657a8;
+    color: white;
+}
+.about-1{
+    background-color: lightgrey;
+}
+.about-2 p{
+    color: gray;
+}
+.about-2 .icon i,h5{
+    color: #1087eb;
+}

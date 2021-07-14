@@ -1,0 +1,85 @@
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Navbar Style*/
+
+.d-flex a:hover{
+    background-color: #3657a8;
+    color: white;
+}
+
+/*header Style*/
+
+.header{
+    height: 550px;
+    background: url('../img/header.jpg') no-repeat center center/cover;
+}
+.header-content h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+    width: 400px;
+    padding-top: 100px;
+}
+.header .row{
+    padding-top: 120px;
+}
+.search-form button{
+    border: none;
+    font-size: 1rem;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #fb246a;
+}
+
+/*Category Style*/
+
+.category h2{
+    font-size: 3rem;
+    color: teal;
+}
+.category hr{
+    width: 50%;
+    margin-left: 200px;
+    border: 4px solid teal;
+}
+.category .icon i{
+    color: teal;
+
+}
+
+/*resume style*/
+.resume{
+    margin-top: 40px;
+    height: 350px;
+    background: url('../img/cv_bg.jpg') no-repeat center center/cover;
+    color: #495293;
+}
+.resume button{
+    background-color: grey;
+    color: #495293;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 30px;
+}
+.resume button:hover{
+    background-color: #495293;
+    color: lightgrey;
+}
+
+/*showcase style*/
+.showcase{
+    background-color:#1f2b7b;
+    padding-top: 50px;
+}
